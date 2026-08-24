@@ -1,0 +1,59 @@
+p { color: red;}
+h1 { background-color: #00ff00;}
+div {background-color: rgba(0,0,255,0.3);}
+
+h1 { color: red;}
+p { color: #333333;}
+body { background-color: lightblue;}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.intro {
+    text-align: justify;
+    line-height: 1.8;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    background: lightgray;
+    border: 2 px solid blue;
+    margin: 20 px;
+    padding: 10px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    margin:  5 px;
+    display: inline-block;
+}
+.left {
+    float: left;
+    width: 60% ;
+    background: lightgreen;
+}
+.right {
+    float: right;
+    width: 35%;
+    background: lightpink;
+}
+.pos {
+    width: 100px;
+    height: 100px;
+    background: navy;
+    position: absolute;
+    top: 50 px;
+    left: 100px;
+}
